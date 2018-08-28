@@ -1,0 +1,681 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFF;
+}
+
+
+li {
+    float: left;
+}
+.tree{
+    padding: 20px;
+    margin-right: 200px;
+}
+.slal img{
+    text-align: center;
+    background-color:transparent; 
+   
+    margin-left:15%;
+}
+.aa{
+    margin-left: 10%;
+  
+    font-weight: 500;
+}
+.saa{
+    font-size: 15px;
+    margin: 10px;
+}
+.aa:hover{
+    color: #000;
+    text-decoration: underline;
+  font-weight: 500;
+}
+
+.aa a:hover{
+color: black;
+}
+header,ul,li,a,img{
+    background-color: #FFF;
+}
+.form-control{
+    width: 70%;
+   margin-left: 4%;
+}
+.h{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    opacity: 0.95;
+    padding-top: 12px;
+    padding-bottom: 2px;
+}
+.b{
+        background: transparent;
+    color: #0067B8;
+    border-color: transparent;
+    border-width: 2px;
+    padding: 10px 0 7px;
+    margin-left: 0;
+    transition: none;
+    white-space: normal;
+    text-align: left;
+    font-size: 13px;
+    letter-spacing: 0.075em;
+}
+.sec{
+        padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-top: 48px;
+    cursor: pointer;
+}
+.ima{
+    width: 100%;
+    height: 100%;
+}
+.slass h6{
+    font-size: 15px;
+    font-weight: 600;
+    color: #616161;
+}
+.slass ul li a{
+    background-color: transparent;
+    box-sizing: inherit;
+    font-size: 11px;
+    line-height: 16px;
+    color: #616161;
+    padding: 14px 0px 14px 0px;
+  
+        line-height: 16px;
+}
+.slass ul li a:hover{
+    text-decoration: underline;
+    color: #616161;
+}
+.carro{
+    position: relative;
+    z-index: 1;
+}
+.nd h1{
+    font-size: 28px;
+    color: #000;
+    font-weight: 700;
+     margin: 20px 0px 20px 0px;
+}
+.nnd h1{
+    font-size: 24px;
+    color: #FFF;
+    font-weight: 700;
+    margin: 20px 0px 20px 0px; 
+}
+.dn{
+    color: #000;
+     margin: 20px 0px 20px 0px;
+     font-size: 15px;
+}
+.dnn{
+    color: #FFF;
+    font-size: 15px;
+         margin: 20px 0px 20px 0px;
+         white-space: pre;
+
+}
+#mySidenav{
+    position: absolute;
+    z-index: 4;
+
+}
+.boton button:hover{
+    background-color: #FFF;
+opacity: 0.7;
+}
+#kk button{
+     color: #000;
+    background-color: #FFF;
+    border-color: #FFF;
+     margin: 20px 0px 20px 0px;
+}
+#kk button:hover{
+    color: #000;
+ background-color: #FFF;
+ border-color: #FFF;
+ opacity: 0.8;
+      margin: 20px 0px 20px 0px;
+}
+
+#jj button{
+    color: #FFF;
+    background-color: #000;
+    border-color: #000;
+     margin: 20px 0px 20px 0px;
+}
+#jj button:hover{
+ color: #FFF;
+ background-color: #000;
+ border-color: #000;
+ opacity: 0.8;
+
+}
+#dentr1{
+    font-size: 13px;
+    line-height: 16px;
+    padding: 0px 22px 7px 24px;
+    max-width: 100%;
+    overflow: hidden;
+    border: 2px solid transparent;
+    color: #FFF;
+    line-height: 1.3;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.075em;
+    white-space: nowrap;
+      width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    top: calc(30%);
+    right: calc(23%); 
+
+    transition: scale 0.2s ease-in-out;
+}
+.nnad{
+   
+    }
+#dentr11{
+    background-color: #000;
+    opacity: 0.8;
+    font-size: 13px;
+    line-height: 16px;
+    max-width: 100%;
+    overflow: hidden;
+    border: 2px solid transparent;
+    color: #FFF;
+    line-height: 1.3;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.075em;
+    white-space: nowrap;
+      width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    top: calc(75%);
+    right: calc(0%); 
+
+    transition: scale 0.2s ease-in-out;
+}
+.jjee{
+    
+    margin: 40px 35%;
+    text-align: center;
+}
+.gran{
+    text-align: center;
+    font-weight: 200;
+    font-size: 30px;
+    margin: 60px 0px;
+}
+.deixa{
+    width: 64px;
+    height: 64px;
+}
+.lalala h2{
+    font-weight: 100;
+    font-size: 15px;
+    margin: 40px 0px;
+}
+
+.sa a{
+    color:#000;
+    font-weight: 200;
+    font-size: 20px;
+}
+.sa a:hover{
+    color: #000;
+    font-size: 20px;
+    font-weight: 200;
+}
+.ye{
+    margin: 0;
+    background-color: #FFD800;
+}
+.jjee h1{
+    font-size: 25px;
+    font-weight:100;
+}
+#dentr13{
+    font-size: 13px;
+    line-height: 16px;
+    max-width: 100%;
+    overflow: hidden;
+    border: 2px solid transparent;
+    color: #FFF;
+    line-height: 1.3;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.075em;
+    white-space: nowrap;
+      width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    top: calc(30%);
+    right: calc(35%); 
+
+    transition: scale 0.2s ease-in-out;
+}
+#dentr2{
+    font-size: 13px;
+    line-height: 16px;
+    padding: 0px 22px 7px 24px;
+    max-width: 100%;
+    overflow: hidden;
+    border: 2px solid transparent;
+    color: #FFF;
+    line-height: 1.3;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.075em;
+    white-space: nowrap;
+      width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    top: calc(30%);
+    right: calc(23%); 
+
+    transition: scale 0.2s ease-in-out;
+}
+#dentr12{
+    line-height: 16px;
+    padding: 0px 22px 7px 24px;
+    max-width: 100%;
+    overflow: hidden;
+    border: 2px solid transparent;
+    color: #FFF;
+    line-height: 1.3;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.075em;
+    white-space: nowrap;
+      width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    top: calc(30%);
+    right: calc(25%); 
+
+    transition: scale 0.2s ease-in-out;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.btn{
+    color: #000;
+    background-color: #FFF;
+    border-color: #167f16;
+}
+.btn:hover{
+    background-color: #167f16;
+}
+#entr{
+	display: block;
+	float: right;
+    margin-right:2px;
+    margin-top:0;
+}
+
+#cadas{
+    margin: 0px 200px 0px 0px;
+}
+.active i{
+    margin: 2px;
+    
+}
+.haha{
+    margin: 30px 0px 30px 0px;
+}
+#pow{
+    margin: 20px 5px 1px 20px;
+    display: inline;
+}
+.ii a{
+    color: #000;
+}
+#menu{
+    margin-top: 0px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #000;
+    font-family: Arial;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.foot{
+    background-color: rgb(242, 242, 242);
+}
+
+.end ul li a{
+ background-color: rgb(242, 242, 242);
+}
+.end ul li{
+ background-color: rgb(242, 242, 242);
+}
+.end ul li p{
+ background-color: rgb(242, 242, 242);
+}
+
+
+.l a{
+    margin-bottom: 0px;
+     background-color: rgb(242, 242, 242);
+}
+h6{
+
+}
+footer .sla .slas .slass a{
+  color: #616161
+     background-color: rgb(242, 242, 242);
+     word-break: break-word;
+     box-sizing: inherit;
+}
+
+footer .sla .slas .slass ul li a{
+      background-color: rgb(242, 242, 242);
+      width: 100%;
+      height: 100%;
+       text-align: justify;
+}
+footer .col-md-2{
+    background-color: rgb(242, 242, 242);
+}
+footer .slass ul{
+    background-color: rgb(242, 242, 242);
+
+}
+.qstd{
+    position: absolute;
+    z-index: 3;
+margin-top: 30px;
+
+}
+.hahah{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: auto;
+}
+.nad{
+    font-weight: 800;
+    color: #FFF;
+}
+.mm{
+    position: relative;
+}
+.mm h2{
+    color: #FFF;
+}
+.kha{
+
+   margin: 40px;
+}
+.kha a{
+     background-color: transparent;
+    color: #FFF;
+}
+.nand{
+    color: #000;
+    font-weight: 100;
+    font-size: 30px;
+}
+.kaak{
+    font-size: 10px;
+    color: #167f16;
+}
+.kak a{
+    background-color: transparent;
+    color: #FFF;
+    text-align: center;
+    position: relative;
+}
+
+.nda{
+    color: #FFF;
+}
+.ite{
+    color: white;
+}
+.end{
+    float: right;
+
+}
+.end ul li{
+       padding: 0 24px 4px 0;
+       text-align: center; 
+
+}
+.end ul{
+    background-color: rgb(242, 242, 242);
+
+}
+#laa{
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+
+	
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: green;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10%;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: yellow;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: red;
+}
+
+
+.im{
+    position: relative;
+    z-index: 1;
+}
+.tx h1{
+     white-space: pre;
+     position: relative;
+     z-index: 2;
+    font-size: 30px;
+    color: #505050 !important;
+    font-weight: 700;
+     margin: 0px 0px 20px 20%;
+     text-align: justify;
+}
+.aga{
+    color: #505050;
+    line-height: 1.2;
+    font-size: 27px;
+    margin: 20px 20px 10px 0px;
+}
+.te{
+     color: #505050;
+     font-size: 17px;
+      line-height: 1.2;
+       margin: 20px 20px 10px 0px;
+}
+.sb{
+    margin: 20px 20px 10px 0px;
+}
+.uu{
+    margin: 60px 0px 40px 0px;
+}
+
+.tx2{
+    font-size: 20px;
+    color: #505050 !important;
+    white-space: pre;
+      position: relative;
+     z-index: 2;
+     text-align: justify;
+     margin: 20px 0px 20px 20%;
+}
+#dentr3{
+     font-size: 13px;
+    line-height: 16px;
+    padding: 0px 22px 7px 24px;
+    max-width: 100%;
+    overflow: hidden;
+    border: 2px solid transparent;
+    color: #FFF;
+    line-height: 1.3;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.075em;
+    white-space: nowrap;
+      width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    top: calc(15%);
+    right: calc(23%); 
+
+    transition: scale 0.2s ease-in-out;
+}
+.btn-danger{
+    background-color: #cb1533;
+    color: #FFF;
+    border-color: #cb1533;
+     margin: 10px 0px 20px 0px;
+}
+.btn-danger:hover{
+    background-color: #cb1533;
+    opacity: 0.8;
+}
+
+
+fieldset legend{
+    font-weight: 700;
+    color: #FFF;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 36px;
+    margin-left: 50px;
+    background-color: green;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+.lef{
+	margin-left: 30%;
+
+}
+.iias{
+    width: 100px;
+    height: 100px;
+    margin-left: 35%;
+}
+#exampleModalLabel{
+    font-size: 20px;
+}
+.sec{
+    position: relative;
+}
+
+.formul{
+    margin: 10px 0px 20px 10px;
+}
+.ci h1{
+    font-size: 34px;
+    line-height: 40px;
+    padding: 38px 0 2px;
+        letter-spacing: -.01em;
+    font-weight: 100;
+    text-align: center;
+}
+.ss{
+    color: black;
+    border: 3px;
+    size: 5px;
+
+}
+.enta{
+    margin-right:40px;
+}
+.entar{
+    margin-right: 10px;
+}
+.te{
+    font-size: 20px;
+    line-height: 24px;
+        padding: 4px 0 8px;
+    font-weight: 200;
+    text-align: center;
+}
+.lala{
+     margin: 0px 0px 40px 0px;
+}
+.to{
+    font-size: 15px;
+    line-height: 24px;
+        padding: 4px 0 8px;
+    font-weight: 800;
+    text-align: center;
+}
+.log{
+    margin-left: 50px;
+}
+.nnn{
+    text-align: center;
+     margin: 40px 0px 40px 0px;
+}
+
+footer{
+    position: relative;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

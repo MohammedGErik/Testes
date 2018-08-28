@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Karter Beard</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Site focado em testar habilidades práticas em html de um aluno da Escola Estadual de Ensino Profissionalizante chamado Erik, que usou como site exemplo o site oficial da Microsoft" />
+	<meta name="keywords" content="Microsoft, Xbox, Windows, Office, Karter, Computadores" />
+	<meta name="revised" content="13/11/2017" />
+	<meta name="robots" content="index, follow">
+
+	<link rel="icon" href="img/barbara.png" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="bootstrap1/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap-3.3.7/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap-3.3.7/dist/css/bootstrap.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.google.com/">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="img/font-awesome/css/font-awesome.min.css">
+	<script src="bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+
+	<div class="col-md-10 col-md-offset-1 ">
+		<header>
+			<div class="row" id="menu container">
+				<ul>
+					<div class="log">
+						<li><img alt="Microsoft" src="img/logo.png"></li>
+					</div>
+
+					<div class="aa">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="windows.html">Windows</a></li>
+						<li><a href="xbox.html">Xbox</a></li>
+						<li><a href="suporte.html">Suporte</a></li>
+					</div>
+					<div id="entr">
+						<li> <div id="main cadas">
+							<a type="button" class="btn btn-primary entar" style="cursor:pointer" onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"></i>Cadastre-se</a>
+						</div></li>
+
+						<li> <a type="button" class="btn btn-primary enta" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap"><i class="fa fa-bars" aria-hidden="true"></i>
+							Entrar</a>
+						</li>
+					</div>
+				</ul>
+			</div>
+
+
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Entre na sua conta</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<div class="iias"><img alt="icone de usuario" src="img/ii.png"></div>
+
+						</div>
+						<div class="modal-body">
+							<form>
+								<div class="form-group">
+									<label for="recipient-name" class="form-control-label">Login:</label>
+									<input type="text" class="form-control" id="recipient-name" required placeholder="digite seu login">
+								</div>
+								<div class="form-group">
+									<label for="csenha">Senha:</label>
+									<input type="password" name="tsenha" value=""  class="form-control" id="recipient-name" required placeholder="digite sua senha"/>
+								</div>
+							</form>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Entrar</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+	</div>
+
+	
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class="formul">
+			<div class="col-md-12 row slal"><img alt="logo da windows" src="img/win.png"></div>
+			<div class="col-md-12">
+				<fieldset>
+					<legend>Cadastro</legend>
+					<label class="saa" for="cnome">Nome:</label>
+					<input  class="form-control" id="cnome" type="text" name="tnome" value="" size="10" required placeholder="digite seu primeiro nome"/>
+					<label class="saa" for="csobrenome">Sobrenome:</label>
+					<input  class="form-control" type="text" name="tsobrenome" value="" id="csobrenome" required placeholder="digite seu sobrenome"/>
+					<label class="saa" for="csenha">Senha:</label>
+					<input  class="form-control" type="password" name="tsenha" value="" id="csenha" size="10" maxlength="9" required placeholder="digite sua senha"/>
+					<label class="saa" for="csenha">Confirmar senha:</label>
+					<input  class="form-control" type="password" name="tsenha" value="" id="csenha" size="10" maxlength="9" required placeholder="digite sua senha novamente"/>
+					<label class="saa" for="cdate">data de nascimento:</label>
+					<input  class="form-control" type="date" name="tdate" value="" size="10" maxlength="9" required/>
+
+				</fieldset>
+			</div>
+			<div class="boton">
+				<button type="button" class="lef btn btn-secondary">Cadastrar</button>
+			</div>
+		</div>
+	</div>
+
+
+	
+	<div class="col-md-12">
+		<section>
+			<div class="im"> <img alt role="presentation" src="img/ini.jpg"></div>
+			<div id="dentr3">
+				<div class="tx"><h1>
+					O que você
+					fará com seus
+					próximos 365
+					dias?</h1></div>
+					<div class="tx2">
+						Com o Office, você tem 365 dias pela
+						frente cheios de possibilidades infinitas. E
+						tudo isso começa agora.</div>
+						<div class="row"><button type="button" class="btn btn-danger">Para casa</button> <button type="button" class="btn btn-danger">Para empresas</button></div>
+					</div>
+				</section>
+			</div>
+			<div class="col-md-10 col-md-offset-1">
+				<div class="col-md-12 row">
+					<div class="col-md-4">
+						<h2 class="aga">Crie de formas poderosas</h2>
+						
+						<div class="te">Crie seus melhores trabalhos com ferramentas de design, pesquisa, revisão de texto e visualização de dados totalmente reinventadas.</div>
+						<a href="#" class="sb">Saiba mais <i class="fa fa-chevron-right" aria-hidden="true"></i> </a>
+					</div>
+
+					<div class="col-md-4">
+						<h2 class="aga">Escreva suas ideias</h2>
+						<div class="te">Faça mais com uma caneta digital em documentos, apresentações, planilhas e anotações do que jamais faria com papel e caneta.</div>
+						<a href="#" class="sb">Saiba mais <i class="fa fa-chevron-right" aria-hidden="true"></i> </a>
+					</div>
+					<div class="col-md-4"> 
+						<h2 class="aga">Trabalhe onde quiser</h2>
+						<div class="te">Trabalhe ininterruptamente em praticamente qualquer lugar com seus aplicativos favoritos do Office e continue de onde parou em qualquer dispositivo.</div>
+						<a href="#" class="sb">Saiba mais <i class="fa fa-chevron-right" aria-hidden="true"></i> </a>
+					</div>
+
+				</div>
+				
+				<div class="row">
+					<div class="col-md-4 uu">
+						<a href="#"><img alt role="presentation" src="img/las1.png"></a>
+					</div>
+					<div class="col-md-4 uu">
+						<a href="#"><img alt role="presentation" src="img/las2.png"></a>
+					</div>
+					<div class="col-md-4 uu">
+						<a href="#"><img alt role="presentation" src="img/las3.png"></a>
+					</div>
+				</div>
+
+
+
+
+			</div>
+
+
+			<div class="row" id="pow">
+				<div class="col-md-12 ii">
+					<p>Siga Karter
+						
+						<a href="#"> <i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+
+						<a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+
+						
+						<a href="#"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
+
+						<a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+
+		<footer>
+			<div class="row foot col-md-12 sla">
+				<div class="col-md-10 col-md-offset-1 slas">
+					<div class="col-md-2 slass">
+						<h6>Novidades</h6>
+						<ul>
+							<li><a href="#"> Xbox One X</a></li>
+							<li><a href="#">Aplicativos do Windows 10</a></li>
+							<li><a href="#">Aplicativos do Office</a></li>
+							<li><a href="#">Guia de Presentes</a></li>
+						</ul>
+					</div>
+					<div class="col-md-2 slass">
+						<h6>Loja e Suporte</h6>
+						<ul>
+							<li><a href="#"> Perfil da conta</a>
+								<li><a href="#">Centro de Download</a></li>
+								<li><a href="#">Vendas e suporte</a></li>
+								<li><a href="#">Devoluções</a></li>
+								<li><a href="#">Acompanhamento de pedidos</a></li>
+								<li><a href="#">Suporte</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 slass">
+							<h6>Educação</h6>
+							<ul>
+								<li><a href="#">Microsoft na educação</a></li>
+								<li><a href="#">Office para estudantes</a></li>
+								<li><a href="#">Office 365 para escolas</a></li>
+								<li><a href="#">Ofertas para estudantes e educadores</a></li>
+								<li><a href="#">Microsoft Azure na Educação</a></li>
+							</ul>
+						</div>
+
+						<div class="col-md-2 slass">
+							<h6>Corporativo</h6>
+							<ul>
+								<li><a href="#">Microsoft Azure</a></li>
+								<li><a href="#">Corporativo</a></li>
+								<li><a href="#">Plataforma de dados</a></li>
+								<li><a href="#">Recursos para parceiros da Microsoft</a></li>
+								<li><a href="#">Produção e recursos</a></li>
+								<li><a href="#">Serviços financeiros</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 slass">
+							<h6>Desenvolvedor</h6>
+							<ul>
+								<li><a href="#">Microsoft Visual Studio</a></li>
+								<li><a href="#">Centro de Desenvolvimento do Windows</a></li>
+								<li><a href="#">Microsoft Developer Network</a></li>
+								<li><a href="#">TechNet</a></li>
+								<li><a href="#">Microsoft Virtual Academy</a></li>
+								<li><a href="#">Programa de desenvolvedores da Microsoft</a></li>
+								<li><a href="#">Channel 9</a></li>
+								<li><a href="#">Centro de Desenvolvimento do Office</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 slass">
+							<h6>Empresa</h6>
+							<ul>
+								<li><a href="#">Carreiras</a></li>
+								<li><a href="#">Sobre a Microsoft</a></li>
+								<li><a href="#">Notícias da empresa</a></li>
+								<li><a href="#">Privacidade na Microsoft</a></li>
+								<li><a href="#">Investidores</a></li>
+								<li><a href="#">Diversidade e inclusão</a></li>
+								<li><a href="#">Segurança</a></li>
+							</ul>
+						</div>
+					</div>
+
+
+					<div class="row col-md-12 ">
+
+						
+						<div class="l">
+							<div class="end">
+
+								<ul>
+									
+									<div id="laa">
+										<li>
+											<a href="#"><i class="fa fa-globe" aria-hidden="true"></i>
+												Português (Brasil)</a>
+											</li>
+										</div>
+
+
+										<li><a href="">Fale Conosco</a> </li>
+										<li> <a href="">Política de Privacidade </a> </li>
+										<li><a href="">Nota Legal</a> </li>
+										<li><a href=""> Marcas </a> </li>
+										<li><a href="">Sobre os nossos anúncios </a> </li>
+										<li>© .GErik Karter 2017</li>
+										
+									</ul>
+								</div>
+							</div>
+
+
+
+						</div>
+
+					</footer>
+				</div>
+			</div>
+
+		</section>
+
+
+
+		<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+	document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+	if (!event.target.matches('.dropbtn')) {
+
+		var dropdowns = document.getElementsByClassName("dropdown-content");
+		var i;
+		for (i = 0; i < dropdowns.length; i++) {
+			var openDropdown = dropdowns[i];
+			if (openDropdown.classList.contains('show')) {
+				openDropdown.classList.remove('show');
+			}
+		}
+	}
+}
+
+
+function openNav() {
+	document.getElementById("mySidenav").style.width = "30%";
+	document.getElementById("main").style.marginLeft = "30%";
+}
+
+function closeNav() {
+	document.getElementById("mySidenav").style.width = "0";
+	document.getElementById("main").style.marginLeft= "0";
+}
+
+
+</script>
+
+</body>
+</html>
+
+
+
